@@ -39,7 +39,7 @@ Add this loader into your webpack.config file
 ```javascript
 {
     test: /\.js$/,
-    exclude: /(node_modules|bower_components)/,
+    exclude: /(node_modules(?!\/(ui.leaflet.layers.webpack|ui.leaflet.webpack))|bower_components)/,
     loader: 'babel-loader?presets[]=es2015'
-}
+},
 ```

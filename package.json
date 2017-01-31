@@ -1,6 +1,6 @@
 {
   "name": "ui.leaflet.layers.webpack",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This is the ui-leaflet-layers adapted to webpack",
   "main": "index.js",
   "scripts": {
