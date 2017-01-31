@@ -43,3 +43,17 @@ Add this loader into your webpack.config file
     loader: 'babel-loader?presets[]=es2015'
 },
 ```
+
+As this module requires some css files, you have to install a css loader.
+
+Installing:
+```bash
+npm install --save-dev css-loader style-loader  
+```
+
+And configure the loader in webpack.config:
+```javascript
+{ 
+    test: /\.css$/, loader: "style-loader!css-loader" 
+}
+```
