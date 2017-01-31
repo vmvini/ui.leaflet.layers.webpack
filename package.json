@@ -1,0 +1,32 @@
+{
+  "name": "ui.leaflet.layers.webpack",
+  "version": "1.0.0",
+  "description": "This is the ui-leaflet-layers adapted to webpack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vmvini/ui.leaflet.layers.webpack.git"
+  },
+  "maintainers": [
+    {
+      "name": "vmvini",
+      "email": "vmvini@hotmail.com"
+    }
+  ],
+  "keywords": [
+    "webpack",
+    "ui-leaflet-layers"
+  ],
+  "author": "vmvini",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vmvini/ui.leaflet.layers.webpack/issues"
+  },
+  "homepage": "https://github.com/vmvini/ui.leaflet.layers.webpack#readme",
+  "dependencies": {
+    "ui.leaflet.webpack": "^1.0.0"
+  }
+}
