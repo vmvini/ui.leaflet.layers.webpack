@@ -1,6 +1,6 @@
 {
   "name": "ui.leaflet.layers.webpack",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "This is the ui-leaflet-layers adapted to webpack",
   "main": "index.js",
   "scripts": {
@@ -27,6 +27,6 @@
   },
   "homepage": "https://github.com/vmvini/ui.leaflet.layers.webpack#readme",
   "dependencies": {
-    "ui.leaflet.webpack": "^1.0.4"
+    "ui.leaflet.webpack": "^1.0.5"
   }
 }
